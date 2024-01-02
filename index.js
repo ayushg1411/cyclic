@@ -5,7 +5,7 @@ const app = express();
 const port = 3002;
 
 const corsOptions = {
-  origin: 'parkeme.netlifyapp',
+  origin: 'parkeme.netlify.app',
 };
 
 app.use(cors(corsOptions));
